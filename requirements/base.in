@@ -1,0 +1,13 @@
+
+# Framework libraries
+maykin-common[axes,mfa,otel]
+psycopg[pool]
+mozilla-django-oidc-db[setup-configuration]
+commonground-api-common
+open-api-framework[celery,cors,markup,geo,csp,commonground,inclusions,sanitization,server,redis]
+
+django-structlog[celery]
+django-hijack
+
+# WSGI servers & monitoring - production oriented
+uwsgi
